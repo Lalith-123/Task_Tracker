@@ -1,0 +1,185 @@
+/* Heading */
+.header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: white;
+}
+.display{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    overflow: hidden;
+    border: 0;
+}
+.display .icon1{
+    width: 30%;
+}
+.display .icon2{
+    width: 20%;
+}
+.display h6{
+    font-size: 12px;
+    width: 60%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dropdownTotal{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdownTotal{
+    width: 220px;
+    height: 80px;
+    z-index: 1;
+}
+.dropdown{
+    height: 50%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.dropdown .ord h6{
+    font-size: 12px;
+    margin: 0;
+    padding: 13px;
+    color: #aeaeae;
+}
+.dropdown .Ords{
+    height: 17px;
+    margin: 11.5px;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+
+/* Ticket */
+.ticket {
+    width: 90%;
+    height: 100px;
+    /* box-shadow: inset 0 0 0 5px rgba(11, 11, 11, 0.1); */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.id {
+    color: #aeaeae;
+    font-size: 10px;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.userId {
+    flex: 1;
+    text-align: right;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.status {
+    width: 10%;
+    height: 100%;
+    float: left;
+    align-items: center;
+}
+.title {
+    font-size: 13px;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    float: left;
+}
+.id1 {
+    width: 100%;
+    height: 25%;
+    position: relative;
+}
+.status1 {
+    width: 90%;
+    min-height: 40%;
+    float: right;
+}
+.priority1 {
+    width: 90%;
+    float: right;
+}
+.priority {
+    height: 100%;
+    width: 15%;
+    float: left;
+}
+.tag {
+    font-size: 10px;
+    color: #aeaeae;
+    margin: 0;
+    height: 100%;
+    width: 85%;
+    float: left; 
+    align-items: center;  
+}
+.tag p{
+    padding: 3px;
+    margin: 0;
+}
+
+/* column */
+.column {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head .icon{
+    float: left;
+    width: 10%;
+}
+.head .grpName{
+    float: left;
+    width: 60%;
+}
+.head .grpName h3{
+    margin: 0;
+    min-width: 30%;
+    font-size: 17px;
+}
+.head .length{
+    float: left;
+}
+.head .length p{
+    margin: 0;
+}
+
+/* Table */
+.table {
+    display: flex;
+}
+
+/* body */
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+}
